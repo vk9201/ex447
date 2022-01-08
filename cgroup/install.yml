@@ -1,0 +1,6 @@
+- hosts: localhost
+  tasks:
+     - name: copy files
+       copy:
+         src: /etc/passwd
+         dest: /tmp
