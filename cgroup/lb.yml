@@ -1,0 +1,10 @@
+- hosts: webservers
+  tasks:
+    - name: install HAproxy
+      yum:
+        name: haproxy
+        state: installed
+
+
+
+
